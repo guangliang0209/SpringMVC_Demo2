@@ -24,7 +24,5 @@ public class UserDaoImplTest {
     public void selectById() throws Exception {
         long userId = 1l;
         User user = userDao.selectUserById(userId);
-
-        System.out.println(user);
     }
 }
